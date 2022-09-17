@@ -1,0 +1,12 @@
+{
+    "manifest_version": 2, 
+    "name": "Welcome",
+    "version": "0.0.1",
+    "content_scripts":[
+        {
+            "matches":["https://example.com/"],
+            "js": ["script.js"],
+            "css": ["style.css"]
+        }
+    ]
+}
